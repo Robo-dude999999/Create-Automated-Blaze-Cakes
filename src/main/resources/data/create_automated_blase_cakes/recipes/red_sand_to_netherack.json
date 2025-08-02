@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 91,
+  "ingredient": {
+    "item": "minecraft:red_sand"
+  },
+  "result": "minecraft:netherrack"
+}

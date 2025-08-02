@@ -1,0 +1,191 @@
+{
+  "mod_elements": [
+    {
+      "name": "RedSandToNetherack",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sand_to_netherack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_automated_blase_cakes/recipes/red_sand_to_netherack.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisMold",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_mold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createautomatedblasecakes/item/LapisMoldItem.java",
+          "src/main/resources/assets/create_automated_blase_cakes/models/item/lapis_mold.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisToLapisMold",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lapis_to_lapis_mold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_automated_blase_cakes/recipes/lapis_to_lapis_mold.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisAndGunpowderCompound",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_and_gunpowder_compound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createautomatedblasecakes/item/LapisAndGunpowderCompoundItem.java",
+          "src/main/resources/assets/create_automated_blase_cakes/models/item/lapis_and_gunpowder_compound.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisAndGunpowder",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_and_gunpowder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_automated_blase_cakes/recipes/lapis_and_gunpowder.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisAndGunpowderCompoundFluid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_and_gunpowder_compound_fluid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createautomatedblasecakes/fluid/types/LapisAndGunpowderCompoundFluidFluidType.java",
+          "src/main/resources/assets/create_automated_blase_cakes/blockstates/lapis_and_gunpowder_compound_fluid.json",
+          "src/main/resources/assets/create_automated_blase_cakes/models/item/lapis_and_gunpowder_compound_fluid_bucket.json",
+          "src/main/java/net/mcreator/createautomatedblasecakes/item/LapisAndGunpowderCompoundFluidItem.java",
+          "src/main/java/net/mcreator/createautomatedblasecakes/block/LapisAndGunpowderCompoundFluidBlock.java",
+          "src/main/java/net/mcreator/createautomatedblasecakes/fluid/LapisAndGunpowderCompoundFluidFluid.java",
+          "src/main/resources/assets/create_automated_blase_cakes/models/block/lapis_and_gunpowder_compound_fluid.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisGunpowderFluid",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lapis_gunpowder_fluid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_automated_blase_cakes/recipes/lapis_gunpowder_fluid.json"
+        ]
+      }
+    },
+    {
+      "name": "LapisGunpowderFluidAndMoldToLapis",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lapis_gunpowder_fluid_and_mold_to_lapis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_automated_blase_cakes/recipes/lapis_gunpowder_fluid_and_mold_to_lapis.json"
+        ]
+      }
+    },
+    {
+      "name": "ClayPowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clay_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_automated_blase_cakes/models/item/clay_powder.json",
+          "src/main/java/net/mcreator/createautomatedblasecakes/item/ClayPowderItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SandToClayPowder",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sand_to_clay_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_automated_blase_cakes/recipes/sand_to_clay_powder.json"
+        ]
+      }
+    },
+    {
+      "name": "ClayPowderToClayBall",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "clay_powder_to_clay_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_automated_blase_cakes/recipes/clay_powder_to_clay_ball.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "water",
+      "type": "number",
+      "scope": "map",
+      "value": "1000.0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:LapisAndGunpowderCompoundFluid"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.create_automated_blase_cakes.clay_powder": "Clay Powder",
+      "block.create_automated_blase_cakes.lapis_and_gunpowder_compound_fluid": "Lapis And Gunpowder Compound Fluid",
+      "item.create_automated_blase_cakes.lapis_and_gunpowder_compound": "Lapis And Gunpowder Compound",
+      "fluid.create_automated_blase_cakes.lapis_and_gunpowder_compound_fluid": "Lapis And Gunpowder Compound Fluid",
+      "item.create_automated_blase_cakes.lapis_mold": "Lapis Mold",
+      "item.create_automated_blase_cakes.lapis_and_gunpowder_compound_fluid_bucket": "Lapis And Gunpowder Compound Fluid Bucket"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "create_automated_blase_cakes",
+    "modName": "Create: Automated Blase Cakes",
+    "version": "1.7.0",
+    "author": "jdken, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.createautomatedblasecakes"
+  },
+  "mcreatorVersion": 202400232117
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 91,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.SAND#1"
+    },
+    "blastingReturnStack": {
+      "value": "Blocks.NETHERRACK"
+    },
+    "name": "red_sand_to_netherack",
+    "namespace": "mod"
+  }
+}

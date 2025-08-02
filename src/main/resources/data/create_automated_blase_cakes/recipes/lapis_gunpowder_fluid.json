@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "create_automated_blase_cakes:lapis_and_gunpowder_compound"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "create_automated_blase_cakes:lapis_and_gunpowder_compound_fluid"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "create_automated_blase_cakes:lapis_and_gunpowder_compound_fluid",
+      "nbt": {}
+    },
+    {
+      "item": "create_automated_blase_cakes:lapis_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "create_automated_blase_cakes:lapis_mold"
+    }
+  ]
+}
